@@ -40,7 +40,7 @@ section{
 	height:100%;
 	background-color:white;
 	border-radius:50%;
-	background-image:url("silviaCartone.jpg");
+	/*background-image:url("silviaCartone.jpg");*/
 	background-position: center;
     	background-size: cover;
 	
@@ -80,7 +80,7 @@ section{
 }
 
 .compitiContainer{
-    height: 39%;
+    height: -webkit-fill-available;
     width: 98%;
     top: 1%;
     left: 1%;
@@ -91,6 +91,33 @@ section{
     transform-style: preserve-3d;
 }
 
+.foto{
+    height: 25%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.uno{
+	background-image: url(marconi.png);
+}
+
+.due{
+	background-image: url(marconi.png);
+}
+
+.tre{
+	background-image: url(marconi.png);
+}
+
+.quattro{
+	background-image: url(marconi.png);
+}
+
+.cinque{
+	background-image: url(marconi.png);
+}
+
 .compitiTitolo{
 	position: absolute;
     left: 10%;
@@ -98,7 +125,7 @@ section{
     height: 100%;
     overflow: hidden;
     background-color: black;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin-bottom:5%;
     font-size: 4em;
     color:yellow;
@@ -111,30 +138,27 @@ section{
 
 .mission1{
   cursor:pointer;
+  /*display:none;*/
 }
 
 .mission2{
   cursor:pointer;
-  margin-top:82%;
-  //display:none;
+  display:none;
 }
 
 .mission3{
   cursor:pointer;
-  margin-top:163%;
-  //display:none;
+  display:none;
   }
 	
 .mission4{
   cursor:pointer;
-  margin-top:244%;
-  //display:none;
+  display:none;
   }
 	
 .mission5{
   cursor:pointer;
-  margin-top:325%;
-  //display:none;
+  display:none;
   }
 
 .compitiTitoloBack{
@@ -147,7 +171,7 @@ section{
     perspective: 1000px;
     transform-style: preserve-3d;
 	background-color: black;
-	font-family: "Oswald", sans-serif;
+	font-family: 'Bebas Neue', sans-serif;
     margin-bottom:5%;
     font-size: 4em;
     color:yellow;
@@ -159,35 +183,33 @@ section{
 .mission1b{
   cursor:pointer;
   transform: rotateY(180deg);
+  /*display:none;*/
 }
 
 .mission2b{
   cursor:pointer;
   transform: rotateY(180deg);
-  margin-top:82%;
-  //display:none;
+  display:none;
 }
 
 .mission3b{
   cursor:pointer;
   transform: rotateY(180deg);
-  margin-top:163%;
-  //display:none;
+  display:none;
 }
 	
 .mission4b{
   cursor:pointer;
   transform: rotateY(180deg);
-  margin-top:244%;
-  //display:none;
+  display:none;
 }
 	
 .mission5b{
   cursor:pointer;
   transform: rotateY(180deg);
-  margin-top:325%;
-  //display:none;
+  display:none;
 }
+
 .titolo2{
     position: absolute;
     top: 5%;
@@ -196,23 +218,58 @@ section{
     height: 15%;
     overflow: hidden;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 0.7em;
     writing-mode: horizontal-tb;
     letter-spacing: 0;
     line-height: 1em;
 }
 
+.password{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 0.3em;
+}
+
+.passwordInput{
+	margin-top:2%;
+	width:90%;
+	border-radius:500px;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.passwordButton{
+	margin-top:2%;
+	width:20%;
+	border-radius:500px;
+	font-family: "Bebas Neue", sans-serif;
+	font-size:1em;
+	font-weight:bold;
+}
+
+
 .descrizione{
   position: absolute;
-    top: 25%;
+    top: 15%;
     left: 10%;
     width: 80%;
-    height: 60%;
     overflow: hidden;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 0.3em;
+    writing-mode: horizontal-tb;
+    letter-spacing: 0;
+	font-style: italic;
+}
+
+.descrizione2{
+	float: left;
+    margin-top: 90%;
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+    text-align: justify;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.27em;
     writing-mode: horizontal-tb;
     letter-spacing: 0;
 }
