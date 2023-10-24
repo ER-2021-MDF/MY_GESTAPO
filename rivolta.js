@@ -19,18 +19,77 @@ function controlloMediaQuery() {
   
   //vestiti();
   
-  //fa partire l'animazione dei disegnini
-  scritta();
+  //fa partire l'animazione dei disegnini, non utilizzato per adesso
+  //scritta();
 } 
 
- 
-function flip(scelta){
+//animazione per ruotare la card 
+function flip(card){
 
-var t2 = gsap.timeline({});
-t2.to("#"+scelta, {duration:1, rotationY: "+=180"});
+	var t2 = gsap.timeline({});
+	t2.to("#"+card, {duration:1, rotationY: "+=180"});
 
 }
 
+//controlla che la password della missione sia corretta
+function passwordCheck(id, password){
+	
+	let card = document.getElementById(id).parentNode.parentNode.id;
+	
+	switch(id){
+	
+	case "arsenaleButton":
+		if(password.toLowerCase() === "vai"){
+			flip(card);
+		}
+		else alert("PASSWORD ERRATA");
+		break;
+		
+	case "piazzaButton":
+		if(password.toLowerCase() === "vai"){
+			flip(card);
+		}
+		else alert("PASSWORD ERRATA");
+		break;
+	
+	case "palazzoButton":
+		if(password.toLowerCase() === "vai"){
+			flip(card);
+		}
+		else alert("PASSWORD ERRATA");
+		break;
+		
+	case "mercatoButton":
+		if(password.toLowerCase() === "vai"){
+			flip(card);
+		}
+		else alert("PASSWORD ERRATA");
+		break;
+		
+	case "tribunaleButton":
+		if(password.toLowerCase() === "vai"){
+			flip(card);
+		}
+		else alert("PASSWORD ERRATA");
+		break;
+	
+	default:
+		alert("ERRORE NEL CODICE");
+		break;
+	}
+		
+	
+}
+
+//loader, non utilizzato
+function carica(){
+    setTimeout(function(){
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("vista").style.display = "inline"; }, 1000);
+} 
+
+
+//non utilizzata per adesso, prototipo per animazione sblocco nuova missione
 function unlockLevel(){
 	
 	switch(getElementById("").value){
@@ -54,9 +113,3 @@ function unlockLevel(){
 	}
 	
 }
-
-function carica(){
-    setTimeout(function(){
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("vista").style.display = "inline"; }, 1000);
-} 
