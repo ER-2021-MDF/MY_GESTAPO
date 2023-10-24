@@ -2,7 +2,7 @@
 
 <head>
 
-	<title>OKI</title>
+	<title>MY GESTAPO</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
@@ -16,10 +16,14 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&display=swap" rel="stylesheet">
+	
 	<!-- local style-->
 	<link rel="stylesheet" href="eroeStyle.css" >
 	<link rel="stylesheet" href="eroeStyleTelView.css" >
-	<link rel="stylesheet" href="disegniniOki.css" >
+	<!-- <link rel="stylesheet" href="disegniniOki.css" >  -->
 
 </head>
 
@@ -31,12 +35,13 @@
 	<div class="immagine">
 	</div>
 
-	<div class="nome">OKI</div>
+	<div class="nome">MY GESTAPO</div>
 
 </section>
 
-<section class="presentazione"> UN SOLO REGNO</section>
+<section class="presentazione">UN SOLO REGNO</section>
 
+<!--
 <section class="disegni">
 
 
@@ -76,23 +81,75 @@
 
 </section>
 
+-->
+
 <section class="compitiContainer">
 
-	<div id="compito1Titolo" class="compitiTitolo mission1" onclick="flip(this.id)"><div class="foto uno">MISSIONE 1</div></div>
-	<div id="compito2Titolo" class="compitiTitolo mission2" onclick="flip(this.id)">MISSIONE 2<div class="foto due"></div></div>
-	<div id="compito3Titolo" class="compitiTitolo mission3" onclick="flip(this.id)">MISSIONE 3<div class="foto tre"></div></div>
-	<div id="compito4Titolo" class="compitiTitolo mission4" onclick="flip(this.id)">MISSIONE 4<div class="foto quattro"></div></div>
-	<div id="compito5Titolo" class="compitiTitolo mission5" onclick="flip(this.id)">MISSIONE 5<div class="foto cinque"></div></div>
+	<div id="compito1Titolo" class="compitiTitolo mission1">	L'ARSENALE
+		<div class="foto uno"></div>
+		<div id="arsenaleInput" class="password">
+			Indicazione per la password
+			<input id="arsenalePassword" class="passwordInput"></input>
+			<button id="arsenaleButton" class="passwordButton" onclick="passwordCheck(this.id, arsenalePassword.value)">OK</button>
+		</div>
+	</div>
+	
+	<div id="compito2Titolo" class="compitiTitolo mission2">	LA PIAZZA
+		<div class="foto due"></div>
+		<div id="piazzaInput" class="password">
+			<input id="piazzaPassword"></input>
+			<button id="piazzaButton" class="passwordButton" onclick="passwordCheck(this.id, piazzaPassword.value)">OK</button>
+		</div>
+	</div>
+	
+	<div id="compito3Titolo" class="compitiTitolo mission3">	IL PALAZZO
+		<div class="foto tre"></div>
+		<div id="palazzoInput" class="password">
+			<input id="palazzoPassword" class="passwordInput"></input>
+			<button id="palazzoButton" class="passwordButton" onclick="passwordCheck(this.id, palazzoPassword.value)">OK</button>
+		</div>
+	</div>
+	
+	<div id="compito4Titolo" class="compitiTitolo mission4">	IL MERCATO
+		<div class="foto quattro"></div>
+		<div id="mercatoInput" class="password">
+			<input id="mercatoPassword" class="passwordInput"></input>
+			<button id="mercatoButton" class="passwordButton" onclick="passwordCheck(this.id, mercatoPassword.value)">OK</button>
+		</div>
+	</div>
+		
+	<div id="compito5Titolo" class="compitiTitolo mission5">	IL TRIBUNALE
+		<div class="foto cinque"></div>
+		<div id="tribunaleInput" class="password">
+			<input id="tribunalePassword" class="passwordInput"></input>
+			<button id="tribunaleButton" class="passwordButton" onclick="passwordCheck(this.id, tribunalePassword.value)">OK</button>
+		</div>
+	</div>
+	
 
 	<div id="compito1Titolo" class="compitiTitoloBack mission1b" onclick="flip('compito1Titolo')">
-		<div class="titolo2">MEI COJONI</div>
-		<div class="descrizione">Palle o palline? Qui le trovi entrambe</div>
+		<div class="titolo2">CORRI</div>
+		<div class="descrizione"> "Senza armi non potranno più minacciarci. Facciamo saltare in aria il loro arsenale, 
+			piazziamo delle bombe lungo tutto il perimetro senza farci prendere"
+		</div>
+		<div class="descrizione2">
+			Fai un giro completo del campo d’erba di Piazza d’Armi. Il cameramen deve stare PER TUTTO IL TEMPO 
+			a riprendervi in un punto abbastanza rialzato da potervi filmare per l’interno tragitto. 
+			I componenti della squadra (escluso il cameraman) faranno un giro a testa a mo di staffetta. 
+			Il video serve a testimoniare che non bariate e a calcolare il tempo impiegato. 
+			Se barate lo fate di nuovo :)
+
+		</div>
 
 	</div>
 
 	<div id="compito2Titolo" class="compitiTitoloBack mission2b" onclick="flip('compito2Titolo')">
-		<div class="titolo2">SOMMO VATE</div>
-		<div class="descrizione">Fioretto o sciabola? Non incrociate le spade</div>
+		<div class="titolo2">IL DISCORSO</div>
+		<div class="descrizione">"Per vincere non serve solo la forza ma anche l'appoggio del popolo"</div>
+		<div class="descrizione2">
+			Scrivi una poesia con rima baciata al sovrano, minimo 16 versi usando le parole: intelligenza, maestà, segreto, tarallo, scafazzare
+
+		</div>
     
 	</div>
 
