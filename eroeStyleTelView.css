@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px){
 
 body{
-	background-color:yellow;
+	background-color:black;
 	min-width: 353px;
 	max-width: 760px;
 	overflow-X:hidden;
@@ -59,31 +59,10 @@ section{
 
 }
 
-.presentazione{
-	width:100%;
-	height:10%;
-	font-family: Brush Script MT, Brush Script Std, cursive;
-	font-style: italic;
-	margin-top: 8%;
-	text-align: center;
-	font-size:larger;
-}
-
-.disegni{
-	height:15%;
-	border-top: 1px dashed black;
-	border-bottom: 1px dashed black;
-	font-family: 'Bangers', cursive;
-	font-size:xx-large;
-	overflow:hidden;
-
-}
-
 .compitiContainer{
     height: -webkit-fill-available;
-    width: 98%;
+    width: 100%;
     top: 1%;
-    left: 1%;
     display: inline-block;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -120,109 +99,126 @@ section{
 
 .compitiTitolo{
 	position: absolute;
-    left: 10%;
-    width: 80%;
+    width: 100%;
     height: 100%;
     overflow: hidden;
     background-color: black;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'DotGothic16', sans-serif;
     margin-bottom:5%;
     font-size: 4em;
-    color:yellow;
-	backface-visibility:hidden;
+    color:green;
     text-align: center;
-    box-shadow: 0px 0px 10px 1px black;
-    writing-mode: horizontal-tb;
 
 }
 
-.mission1{
-  cursor:pointer;
-  /*display:none;*/
-}
-
-.mission2{
-  cursor:pointer;
-  display:none;
-}
-
-.mission3{
-  cursor:pointer;
-  display:none;
-  }
-	
-.mission4{
-  cursor:pointer;
-  display:none;
-  }
-	
-.mission5{
-  cursor:pointer;
-  display:none;
-  }
-
-.compitiTitoloBack{
+/*.compitiTitoloBack{
 	position: absolute;
-    left: 10%;
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: inline-block;
     -webkit-backface-visibility: hidden;
     perspective: 1000px;
     transform-style: preserve-3d;
 	background-color: black;
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: 'DotGothic16', sans-serif;
     margin-bottom:5%;
     font-size: 4em;
-    color:yellow;
+    color:green;
     text-align: center;
     box-shadow: 0px 0px 10px 1px black;
     writing-mode: horizontal-tb;
-}
-
-.mission1b{
-  cursor:pointer;
-  transform: rotateY(180deg);
-  /*display:none;*/
-}
-
-.mission2b{
-  cursor:pointer;
-  transform: rotateY(180deg);
-  display:none;
-}
-
-.mission3b{
-  cursor:pointer;
-  transform: rotateY(180deg);
-  display:none;
-}
-	
-.mission4b{
-  cursor:pointer;
-  transform: rotateY(180deg);
-  display:none;
-}
-	
-.mission5b{
-  cursor:pointer;
-  transform: rotateY(180deg);
-  display:none;
-}
+}*/
 
 .titolo2{
     position: absolute;
     top: 5%;
     left: 10%;
     width: 80%;
-    height: 15%;
     overflow: hidden;
     text-align: center;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'DotGothic16', sans-serif;
     font-size: 0.7em;
     writing-mode: horizontal-tb;
     letter-spacing: 0;
     line-height: 1em;
+}
+
+.titolo2::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
+}
+
+.descrizione{
+	float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 0.3em;
+    writing-mode: horizontal-tb;
+    letter-spacing: 0;
+	font-style: italic;
+}
+
+.descrizione::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
+}
+
+.descrizione2{
+	float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+    text-align: justify;
+    font-family: 'VT323', monospace;
+    font-size: 0.27em;
+    writing-mode: horizontal-tb;
+    letter-spacing: 0;
+}
+
+.descrizione2::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
+}
+
+.password{
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+}
+
+.indizio{
+    text-align: justify;
+    font-family: 'VT323', monospace;
+    font-size: 1em;
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+}
+
+.indizio::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
 }
 
 .password{
@@ -230,50 +226,49 @@ section{
 	font-size: 0.3em;
 }
 
+textarea:focus, input:focus{
+    outline: none;
+}
+
 .passwordInput{
 	margin-top:2%;
 	width:90%;
-	border-radius:500px;
-	font-family: "Bebas Neue", sans-serif;
+	height: 10%;
+	border: 1px solid;
+	border-color: green;
+	font-family: 'DotGothic16', sans-serif;
+	font-family: courier;
+	caret-color: green;
+	background-color: rgba(28, 28, 28, 1);
+	color: green;
 }
 
-.passwordButton{
+.buttonInput{
 	margin-top:2%;
 	width:20%;
-	border-radius:500px;
-	font-family: "Bebas Neue", sans-serif;
+	border: 1px solid;
+	border-color: green;
+	font-family: 'DotGothic16', sans-serif;
 	font-size:1em;
 	font-weight:bold;
+	background-color: rgba(28, 28, 28, 1);
+	color: green;
 }
 
-
-.descrizione{
-  position: absolute;
-    top: 15%;
-    left: 10%;
-    width: 80%;
-    overflow: hidden;
-    text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.3em;
-    writing-mode: horizontal-tb;
-    letter-spacing: 0;
-	font-style: italic;
+.buttonInput:hover{
+	color:black;
+	background-color:green;
 }
 
-.descrizione2{
-	float: left;
-    margin-top: 90%;
-    margin-left: 10%;
-    width: 80%;
-    overflow: hidden;
-    text-align: justify;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.27em;
-    writing-mode: horizontal-tb;
-    letter-spacing: 0;
-}
+.endCursor::after{
+	content:"";
+	}
 
+@keyframes blink {
+	from {background-color: green; color: green}
+	to { background-color: black; color: black;}
+
+}
 
 .end{
 	height:1%;
