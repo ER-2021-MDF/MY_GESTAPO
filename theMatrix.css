@@ -35,7 +35,6 @@ section{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-	background-color: green;
 	visibility: hidden;
 	position: relative;
 	float: left;
@@ -188,10 +187,10 @@ textarea:focus, input:focus{
 
 .casella{
 	padding-bottom:10%;
+	margin-top: 25%;
 }
 
 .passwordInput{
-	margin-top:15%;
 	width:90%;
 	height: 10%;
 	border: 1px solid;
