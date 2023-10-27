@@ -62,6 +62,7 @@ function sbloccaSfida(sfida){
 	let img;
 	let indizio;
 	let time = 0;
+	let immagine = false;
 	
 	sfida = sfida.toLowerCase();
 	
@@ -140,13 +141,16 @@ function sbloccaSfida(sfida){
 		case "xarsenale":
 			title = "L\u0027ARSENALE";
 			
-			img = "";
+			img = "marconi2.png";
 		
 			desc = "";
 		
 			text = "";
 			
 			indizio = "Indizio";
+			
+			immagine = true;
+			
 		break;
 		
 		case "xpiazza":
@@ -237,13 +241,15 @@ function sbloccaSfida(sfida){
 			
 			title = "ERRORE";
 			
-			img = " ";
+			img = "notFound.png";
 			
 			desc = "Password errata. Riprova";
 			
 			text = "";
 			
 			indizio = "";
+			
+			immagine = true;
 			
 		 break;
 	}
@@ -268,29 +274,47 @@ function sbloccaSfida(sfida){
 	} else if(img !== ""){
 		testo.textContent = "";
 		setTimeout(function(){
-			foto.style.height = "25%";
+			foto.style.height = "32%";
 			foto2.style.height = "100%";
 			foto2.style.visibility = "visible";
 			foto.style.visibility = "visible";
-			foto.style.url = img;
+			foto.style.backgroundImage = "url("+img+")";
 		}, 1000);
-		setTimeout(imageReveal, 3000);
+		setTimeout(imageReveal, 1000);
 	} else {
 		testo.style.height = "0%";
+	}
+	
+	let indizioTimer;
+	let indizioCursor;
+	if(immagine){
+		indizioCursor = 2500;
+		indizioTimer = 3000;
+	}
+	else {
+		indizioCursor = 8500;
+		indizioTimer = 9000;
 	}
 	
 	if(indizio !== ""){
 		inputIndizio.textContent = "";
 		inputIndizio.style.height = "max-content";
-		setTimeout(restartCursor, 8500, inputIndizio);
-		setTimeout(write, 9000, indizio, inputIndizio, 2000/indizio.length);
+		setTimeout(restartCursor, indizioCursor, inputIndizio);
+		setTimeout(write, indizioTimer, indizio, inputIndizio, 2000/indizio.length);
 	} else {
 		inputIndizio.style.height = "0%";
 	}
 	
+	
+	let casellaTimer;
+	if(immagine){
+		casellaTimer = 5000;
+	}
+	else casellaTimer = 12000;
+	
 	setTimeout(function(){
 		document.getElementById("casella").style.visibility = "visible";
-	}, 12000);
+	}, casellaTimer);
 	
 }
 
