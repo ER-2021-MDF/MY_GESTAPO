@@ -104,9 +104,9 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Da scrivere";
+			desc = "Descrizione da scrivere";
 		
-			text = "Da scrivere";
+			text = "Prova da scrivere";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -116,7 +116,7 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo";
+			desc = "Noi siamo ovunque";
 		
 			text = "Spiare il nemico in questa guerra \u00E8 un\u0027arte fondamentale. Cos\u00EC come lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Jasmine. "+
 					"Uno di voi si avvolger\u00E0 nella carta stagnola e si far\u00E0 passare per un kebab arrotolato. Andate quindi da Yasmine e fatevi fotografare DENTRO al "+
@@ -141,13 +141,13 @@ function sbloccaSfida(sfida){
 		case "xarsenale":
 			title = "L\u0027ARSENALE";
 			
-			img = "marconi2.png";
+			img = "arsenale.png";
 		
 			desc = "";
 		
 			text = "";
 			
-			indizio = "Indizio";
+			indizio = "Civico 26, secondo nome del campanello dal basso ";
 			
 			immagine = true;
 			
@@ -156,49 +156,58 @@ function sbloccaSfida(sfida){
 		case "xpiazza":
 			title = "LA PIAZZA";
 			
-			img = "";
+			img = "marconi2.png";
 		
 			desc = "";
 		
 			text = "";
 			
-			indizio = "Indizio";
+			indizio = "Cassonetto della plastica,terza parola della quarta riga";
+			
+			immagine = true;
 		break;
 		
 		case "xtribunale":
 			title = "IL TRIBUNALE";
 			
-			img = "";
+			img = "tribunale.png";
 		
 			desc = "";
 		
 			text = "";
 			
-			indizio = "Indizio";
+			indizio = "Indizio da scrivere";
+			
+			immagine = true;
 		break;
 		
 		case "xmercato":
 			title = "IL MERCATO";
 			
-			img = "";
+			img = "mercato.png";
 		
 			desc = "";
 		
 			text = "";
 			
-			indizio = "Indizio";
+			indizio = "Indizio da scrivere";
+			
+			immagine = true;
 		break;
 		
 		case "xpalazzo":
 			title = "IL PALAZZO";
 			
-			img = "";
+			img = "palazzo.png";
 		
 			desc = "";
 		
 			text = "";
 			
-			indizio = "Indizio";
+			indizio = "Monumento nel piazzale, 5 cognome della colonna di destra";
+			
+			immagine = true;
+			
 		break;
 		
 		// ----- PER IL TUTORIAL ----- 
