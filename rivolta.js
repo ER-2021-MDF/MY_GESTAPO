@@ -70,7 +70,7 @@ function sbloccaSfida(sfida){
 		
 		// ----- PER LE SFIDE ----- 
 		
-		case "arsenale":
+		case "3406966054":
 			title = "CORRI";
 			
 			img = "";
@@ -87,7 +87,7 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
 		break;
 		
-		case "piazza":
+		case "geunagiuseppe":
 			title = "IL DISCORSO";
 			
 			img = "";
@@ -99,7 +99,7 @@ function sbloccaSfida(sfida){
 			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "tribunale":
+		case "9:0012:00":
 			title = "TRIBUNALE";
 			
 			img = "";
@@ -111,7 +111,7 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "mercato":
+		case "marchesiellotrucco":
 			title = "IL MERCATO";
 			
 			img = "";
@@ -125,12 +125,24 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "palazzo":
+		case "gruppogiovanidellaparrochiamadonnadifatimadipinerolo":
 			title = "IL PALAZZO";
 			
 			img = "";
 		
 			desc = "Solo chi \u00E8 pronto al sacrificio pu\u00F2 aspirare a diventare un leader";
+		
+			text = "Prova da scirvere";
+			
+			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+		break;
+			
+		case "8":
+			title = "LA PIAZZA";
+			
+			img = "";
+		
+			desc = "Io sono la voce del popolo";
 		
 			text = "Prova da scirvere";
 			
@@ -147,7 +159,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Civico 26, secondo nome del campanello dal basso ";
+			indizio = "Numero di telefono del laboratorio restauro";
 			
 			immagine = true;
 			
@@ -162,7 +174,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Cassonetto della plastica,terza parola della quarta riga";
+			indizio = "Numero di colonne dentro al duomo (no paraste)";
 			
 			immagine = true;
 		break;
@@ -176,7 +188,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Indizio da scrivere";
+			indizio = "società italiana degli autori ed editori, orario lunedì - venerdì dalle … alle …";
 			
 			immagine = true;
 		break;
@@ -190,7 +202,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Indizio da scrivere";
+			indizio = "Via Trieste 8, cognomi del campanello 3P (lato sinistro)";
 			
 			immagine = true;
 		break;
@@ -204,7 +216,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Monumento nel piazzale, 5 cognome della colonna di destra";
+			indizio = "Sentiero laudato sii tappa 1, realizzata dal ...";
 			
 			immagine = true;
 			
