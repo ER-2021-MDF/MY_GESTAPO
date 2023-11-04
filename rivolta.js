@@ -125,7 +125,7 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "gruppogiovanidellaparrochiamadonnadifatimadipinerolo":
+		case "gruppogiovanidellaparrocchiamadonnadifatimadipinerolo":
 			title = "IL PALAZZO";
 			
 			img = "";
@@ -168,7 +168,7 @@ function sbloccaSfida(sfida){
 		case "xpiazza":
 			title = "LA PIAZZA";
 			
-			img = "marconi2.png";
+			img = "piazza.png";
 		
 			desc = "";
 		
