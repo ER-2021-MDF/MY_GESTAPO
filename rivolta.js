@@ -71,16 +71,16 @@ function sbloccaSfida(sfida){
 		// ----- PER LE SFIDE ----- 
 		
 		case "3406966054":
-			title = "CORRI";
+			title = "CONTROLLA IL PERIMETRO";
 			
 			img = "";
 			
 			desc = "Senza armi non potranno pi\u00F9 minacciarci. Facciamo saltare in aria il loro arsenale, "+
 					"piazziamo delle bombe lungo tutto il perimetro senza farci prendere";
 			
-			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Il cameramen deve stare PER TUTTO IL TEMPO " +
+			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Uno di voi deve stare PER TUTTO IL TEMPO " +
 					"a riprendervi in un punto abbastanza rialzato da potervi filmare per l\u0027interno tragitto. "+
-					"I componenti della squadra \(escluso il cameraman\) faranno un giro a testa a mo di staffetta. "+
+					"I componenti della squadra faranno un giro a testa a mo di staffetta, anche chi è stato scelto per filmare. "+
 					"Il video serve a testimoniare che non bariate e a calcolare il tempo impiegato. "+
 					"Se barate lo fate di nuovo :)";
 			
