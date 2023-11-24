@@ -224,17 +224,17 @@ function sbloccaSfida(sfida){
 
 		case "xmarconi":
 			title = "LA RIUNIONE";
-			
+
 			img = "marconi2.png";
-		
+
 			desc = "";
-		
+
 			text = "";
-			
-			indizio = "Targa commemorativa, terzo cognome e nome colonna di destra;
-			
+
+			indizio = "Targa commemorativa terzo cognome e nome colonna destra";
+
 			immagine = true;
-			
+
 		break;
 		
 		// ----- PER IL TUTORIAL ----- 
