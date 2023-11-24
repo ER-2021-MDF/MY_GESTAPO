@@ -196,7 +196,7 @@ function sbloccaSfida(sfida){
 		case "xmercato":
 			title = "IL MERCATO";
 			
-			img = "mercato.png";
+			img = "mercato2.png";
 		
 			desc = "";
 		
