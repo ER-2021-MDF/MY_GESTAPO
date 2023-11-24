@@ -103,7 +103,7 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo";
+			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo. O il loro terrore";
 		
 			text = "Mettere a terra al massimo il seguente numero di parti del corpo a terra. Una persona dovrà fare le foto. <\br>"+
 				"- 2 PIEDI, UN GOMITO <\n>"+
@@ -118,7 +118,7 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Noi siamo ovunque";
+			desc = "Non puoi nasconderti, noi siamo ovunque";
 		
 			text = "Spiare il nemico in questa guerra \u00E8 un\u0027arte fondamentale. Cos\u00EC come lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Jasmine. "+
 					"Uno di voi si avvolger\u00E0 nella carta stagnola e si far\u00E0 passare per un kebab arrotolato. Andate quindi da Yasmine e fatevi fotografare DENTRO al "+
@@ -134,7 +134,11 @@ function sbloccaSfida(sfida){
 		
 			desc = "Solo chi \u00E8 pronto al sacrificio pu\u00F2 aspirare a diventare un leader";
 		
-			text = "Prova da scirvere";
+			text = " Come da tradizione, ogni leader che si rispetti e che ambisca a governare deve dimostrare la propria forza "+
+				"e di essere disposto a sacrificarsi. La tradizione vuole che venga quindi offerta in sacrificio una parte di s\u00E8. "+
+				"Ma non siamo barbari, niente taglio delle dita o delle orecchie: una ceretta ad un uomo andr\u00E0 pi\u00F9 che bene. A seguire, "+
+				"chi non ha preso parte alla ceretta, deve sottoporsi comunque a un altro rito d\u0027iniziazione: una ragazza dovr\u00E0 sculacciare "+
+				"in modo divertente un ragazzo. Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -144,9 +148,9 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Io sono la voce del popolo";
+			desc = "La voce del popolo\u003F Non sento nulla, saranno rauchi";
 		
-			text = "Prova da scirvere";
+			text = "Intervista un uomo che non conosci, chiedigli qual \u00E8 secondo lui il miglior metodo di depilazione, e perch\u00E8. Filma il tutto ";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
