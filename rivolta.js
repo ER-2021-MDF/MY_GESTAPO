@@ -79,32 +79,36 @@ function sbloccaSfida(sfida){
 					"piazziamo delle bombe lungo tutto il perimetro senza farci prendere";
 			
 			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. "+
-					"I componenti della squadra faranno un giro a testa a mo di staffetta. Se barate lo fate di nuovo. " +
+					"I componenti della squadra faranno un giro a testa a mo di staffetta. " +
 					"Se barate lo fate di nuovo :)";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
 		break;
 		
-		case "geunagiuseppe":
+		case "900":
 			title = "IL DISCORSO";
+			
+			img = "";
+		
+			desc = "Meglio un culo gelato che un gelato nel culo. No forse non era cos\u00EC. Scrivi tu dai";
+		
+			text = "Scrivi una poesia con rima baciata al sovrano di 14 versi, usando le parole: " +
+				"comunitroia, finocchio, segreto, tarallo, scafazzare, incapace circonvenuto, liceo matematico";
+			
+			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
+		break;
+		
+		case "geunagiuseppe":
+			title = "IL GIUSTO APPOGGIO";
 			
 			img = "";
 		
 			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo";
 		
-			text = "Scrivi una poesia con rima baciata al sovrano, minimo 16 versi usando le parole: intelligenza, maest\u00E0, segreto, tarallo, scafazzare";
-			
-			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
-		break;
-		
-		case "9:0012:00":
-			title = "TRIBUNALE";
-			
-			img = "";
-		
-			desc = "Descrizione da scrivere";
-		
-			text = "Prova da scrivere";
+			text = "Mettere a terra al massimo il seguente numero di parti del corpo a terra. Una persona dovrà fare le foto. <\br>"+
+				"- 2 PIEDI, UN GOMITO <\br>"+
+				"- 1 PIEDE, 3 GINOCCHIA <\br>"+
+				"- 6 MANI, 2 PIEDI <\br>";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
