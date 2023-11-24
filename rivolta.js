@@ -168,7 +168,7 @@ function sbloccaSfida(sfida){
 		case "xpiazza":
 			title = "LA PIAZZA";
 			
-			img = "piazza.png";
+			img = "duomo.png";
 		
 			desc = "";
 		
@@ -217,6 +217,21 @@ function sbloccaSfida(sfida){
 			text = "";
 			
 			indizio = "Sentiero laudato sii tappa 1, realizzata dal ...";
+			
+			immagine = true;
+			
+		break;
+
+		case "xmarconi":
+			title = "LA RIUNIONE";
+			
+			img = "marconi2.png";
+		
+			desc = "";
+		
+			text = "";
+			
+			indizio = "Targa commemorativa, terzo cognome e nome colonna di destra;
 			
 			immagine = true;
 			
