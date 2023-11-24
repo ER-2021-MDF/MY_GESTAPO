@@ -127,7 +127,7 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "gruppogiovanidellaparrocchiamadonnadifatimadipinerolo":
+		case "parrocchiamadonnadifatima":
 			title = "IL PALAZZO";
 			
 			img = "";
@@ -194,7 +194,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "società italiana degli autori ed editori, orario lunedì - venerdì dalle … alle …";
+			indizio = "Società Italiana degli Autori ed Editori, orario lunedì - venerdì dalle … alle 12:00";
 			
 			immagine = true;
 		break;
@@ -222,7 +222,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Sentiero laudato sii tappa 1, realizzata dal ...";
+			indizio = "Sentiero laudato sii tappa 1, realizzata dal Gruppo Giovani della .... di Pinerolo";
 			
 			immagine = true;
 			
