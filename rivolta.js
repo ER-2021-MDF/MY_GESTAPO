@@ -78,10 +78,8 @@ function sbloccaSfida(sfida){
 			desc = "Senza armi non potranno pi\u00F9 minacciarci. Facciamo saltare in aria il loro arsenale, "+
 					"piazziamo delle bombe lungo tutto il perimetro senza farci prendere";
 			
-			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Uno di voi deve stare PER TUTTO IL TEMPO " +
-					"a riprendervi in un punto abbastanza rialzato da potervi filmare per l\u0027interno tragitto. "+
-					"I componenti della squadra faranno un giro a testa a mo di staffetta, anche chi è stato scelto per filmare. "+
-					"Il video serve a testimoniare che non bariate e a calcolare il tempo impiegato. "+
+			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. "+
+					"I componenti della squadra faranno un giro a testa a mo di staffetta. Se barate lo fate di nuovo. " +
 					"Se barate lo fate di nuovo :)";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
@@ -196,7 +194,7 @@ function sbloccaSfida(sfida){
 		case "xmercato":
 			title = "IL MERCATO";
 			
-			img = "mercato2.png";
+			img = "mercato.png";
 		
 			desc = "";
 		
