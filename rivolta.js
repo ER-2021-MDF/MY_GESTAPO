@@ -272,7 +272,7 @@ function sbloccaSfida(sfida){
 					
 			indizio = "";
 			
-			break;
+		break;
 			
 		case "batty":
 			alert("PASSWORD ERRATA");
