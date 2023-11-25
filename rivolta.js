@@ -75,9 +75,9 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 			
-			desc = "Senza armi non potranno pi\u00F9 minacciarci. Facciamo saltare in aria il loro arsenale, "+
-					"piazziamo delle bombe lungo tutto il perimetro senza farci prendere";
-			
+			desc = "I ribelli stanno provando a infiltrarsi nel tuo arsenale. "+
+				"Controlla il perimetro e cacciali a colpi di manganello";
+
 			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. "+
 					"I componenti della squadra faranno un giro a testa a mo di staffetta. " +
 					"Se barate lo fate di nuovo :)";
@@ -120,7 +120,7 @@ function sbloccaSfida(sfida){
 		
 			desc = "Non puoi nasconderti, noi siamo ovunque";
 		
-			text = "Spiare il nemico in questa guerra \u00E8 un\u0027arte fondamentale. Cos\u00EC come lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Jasmine. "+
+			text = "Spiare il nemico in questa guerra \u00E8 un\u0027arte fondamentale. Cos\u00EC come lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Yasmine. "+
 					"Uno di voi si avvolger\u00E0 nella carta stagnola e si far\u00E0 passare per un kebab arrotolato. Andate quindi da Yasmine e fatevi fotografare DENTRO al "+
 					"locale con il travestimento addosso. Sulla stagnola scrivete \'SENZA PICCANTE, SENZA CIPOLLA, SENZA CARNE E SENZA IMPASTO\'";
 			
