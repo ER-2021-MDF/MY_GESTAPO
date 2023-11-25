@@ -156,7 +156,7 @@ function sbloccaSfida(sfida){
 		break;
 		
 		// ----- PER I LUOGHI ----- 
-		case "xarsenale":
+		case "frisbee":
 			title = "L\u0027ARSENALE";
 			
 			img = "arsenale.png";
@@ -171,7 +171,7 @@ function sbloccaSfida(sfida){
 			
 		break;
 		
-		case "xpiazza":
+		case "zanzingaro":
 			title = "LA PIAZZA";
 			
 			img = "duomo.png";
@@ -185,7 +185,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xtribunale":
+		case "gin":
 			title = "IL TRIBUNALE";
 			
 			img = "tribunale.png";
@@ -199,7 +199,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xmercato":
+		case "truman":
 			title = "IL MERCATO";
 			
 			img = "mercato.png";
@@ -213,7 +213,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xpalazzo":
+		case "amio":
 			title = "IL PALAZZO";
 			
 			img = "palazzo.png";
@@ -228,7 +228,7 @@ function sbloccaSfida(sfida){
 			
 		break;
 
-		case "xmarconi":
+		case "tisanina":
 			title = "LA RIUNIONE";
 
 			img = "marconi2.png";
@@ -258,6 +258,19 @@ function sbloccaSfida(sfida){
 					"tramite suggerimento o come ricompensa e ti servir\u00E0 per avanzare alla missione successiva."
 					
 			indizio = "Per iniziare digita Batty";
+			
+			break;
+
+		case "spritz":
+			title = "VITTORIA"
+			
+			img = "";
+			
+			desc = "Fine";
+			
+			text = "Le missioni sono finite, torna subito alla base"
+					
+			indizio = "";
 			
 			break;
 			
