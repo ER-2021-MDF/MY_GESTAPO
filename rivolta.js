@@ -82,7 +82,7 @@ function sbloccaSfida(sfida){
 					"I componenti della squadra faranno un giro a testa a mo di staffetta. " +
 					"Se barate lo fate di nuovo :)";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";			
 		break;
 		
 		case "900":
@@ -95,7 +95,7 @@ function sbloccaSfida(sfida){
 			text = "Scrivi una poesia con rima baciata al sovrano di 14 versi, usando le parole: " +
 				"comunitroia, finocchio, segreto, tarallo, scafazzare, incapace circonvenuto, liceo matematico";
 			
-			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: Ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		case "geunagiuseppe":
@@ -110,7 +110,7 @@ function sbloccaSfida(sfida){
 				"- 1 PIEDE, 3 GINOCCHIA \n"+
 				"- 6 MANI, 2 PIEDI \n";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		case "marchesiellotrucco":
@@ -124,7 +124,7 @@ function sbloccaSfida(sfida){
 					"Uno di voi si avvolger\u00E0 nella carta stagnola e si far\u00E0 passare per un kebab arrotolato. Andate quindi da Yasmine e fatevi fotografare DENTRO al "+
 					"locale con il travestimento addosso. Sulla stagnola scrivete \'SENZA PICCANTE, SENZA CIPOLLA, SENZA CARNE E SENZA IMPASTO\'";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		case "parrocchiamadonnadifatima":
@@ -140,7 +140,7 @@ function sbloccaSfida(sfida){
 				"chi non ha preso parte alla ceretta, deve sottoporsi comunque a un altro rito d\u0027iniziazione: una ragazza dovr\u00E0 sculacciare "+
 				"in modo divertente un ragazzo. Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 			
 		case "8":
@@ -152,7 +152,7 @@ function sbloccaSfida(sfida){
 		
 			text = "Intervista un uomo che non conosci, chiedigli qual \u00E8 secondo lui il miglior metodo di depilazione, e perch\u00E8. Filma il tutto ";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		// ----- PER I LUOGHI ----- 
